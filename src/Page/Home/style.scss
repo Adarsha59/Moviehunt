@@ -1,0 +1,40 @@
+
+
+.trendingSection
+{
+    position: relative;
+    margin-bottom: 70px;
+}
+
+
+
+.trendingSection .trendingText 
+{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+// style.scss
+
+
+  .oi {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .oi:hover {
+    background-color: #45a049;
+  }
+  
