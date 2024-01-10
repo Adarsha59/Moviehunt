@@ -18,6 +18,7 @@ import Explore from './Page/Explore/explore';
 import Search from './Page/Search/search';
 import NavBar from './components/Nav/NavBar';
 import Footer from './components/Footer/Footer';
+import PageNotFound from './Page/404/PageNotFound';
 
 function App() {
   const { url } = useSelector((state) => state.home);
@@ -74,6 +75,7 @@ function App() {
           <Route path="/:mediatype/:id" element={<Details />} />
           <Route path="/explore/:mediatype" element={<Explore />} />
           <Route path="/search/:query" element={<Search />} />
+           <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer/>
       </Router>
